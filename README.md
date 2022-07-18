@@ -26,6 +26,9 @@ pip install -r requirements.txt
    ```
    > Note that you should change appropriate values in `user`, `password`, `url`, `scheme` fields. Or you can even use other database. More about [connection urls](https://www.prisma.io/docs/reference/database-connectors/connection-urls)
 
+   ```
+   docker run --name postgres -e POSTGRES_PASSWORD=test -e POSTGRES_USER=test -e POSTGRES_DB=test -p 5432:5432 -d postgres 
+   ```
 ## Generate Prisma Client and Nexus
 
 ```sh
