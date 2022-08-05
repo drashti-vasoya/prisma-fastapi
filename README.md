@@ -8,14 +8,13 @@
 ## Setup virtual environment
 
 ```sh
-python -m venv .venv
-source .venv/bin/activate
+python3 -m venv venv && source venv/bin/activate
 ```
 
 ## Install requirements
 
 ```sh
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## Setup environment

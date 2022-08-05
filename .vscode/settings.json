@@ -1,6 +1,0 @@
-{
-  "python.venvPath": ".venv",
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter"
-  }
-}
